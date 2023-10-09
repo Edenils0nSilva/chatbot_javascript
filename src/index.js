@@ -1,7 +1,7 @@
 const qrcode = require('qrcode-terminal');
 const { Client, Buttons, GroupNotificationTypes } = require('whatsapp-web.js');
 
-// Initialize the client
+// Initialize the client.
 const client = new Client();
 
 // Function to handle the payment methods response
